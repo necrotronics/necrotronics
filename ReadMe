@@ -15,3 +15,6 @@ For BPA8, TPA3118, ESP32-C61 IoT integration.
 ## Value Proposition
 Studio-grade audio in 9.5 min, saving $65k/year. Grok 3 analytics, ESP32-C61 IoT, 35+ free presets. 55x ROI. Join 5,000+ creators.  
 [Join Now](https://necrotronics.com/pwa)
+git add .
+git commit -m "Initial commit: Added Necrotronics documentation, assets, and code"
+git push origin main
