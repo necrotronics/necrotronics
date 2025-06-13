@@ -1,0 +1,5 @@
+#include "esp_http_client.h"
+#include "esp_ota_ops.h"
+esp_http_client_config_t config = {.url = "https://github.com/necrotronics/presets-market/raw/main/1176_Emu.dspparam"};
+esp_ota_begin(); // OTA update support
+grpc_call(grpc_client, "/necotronics/control", "1176_Emu");
