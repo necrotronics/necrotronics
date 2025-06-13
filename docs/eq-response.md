@@ -34,3 +34,19 @@
     "accessibility": { "description": "Interactive EQ frequency response with hover tooltips." }
   }
 }
+**Notes**: Verified EQ data, Chart.js for interactivity.
+
+#### 8. docs/gui-design.md
+```markdown
+# GUI Design
+**Purpose**: Intuitive DSP control, ESP32-C61 remote access, 35+ presets.  
+**Layout**: 640x230px (desktop), 300x90px (mobile), #081027 background.  
+**Colors**: Text (#FAFBFC), controls (#081027), accents (#F94144).  
+**Font**: Montserrat, 3.3 pt labels, 5 pt titles.  
+**Components**: Sliders, toggles (0.15”x0.3”), preset dropdown, [Save Preset](https://necrotronics.com/pwa/save) button.  
+
+**Interactive GUI**: [PWA](https://necrotronics.com/pwa)  
+*Alt Text: Necrotronics PWA GUI with cyan controls, red accents.*  
+**Asset**: [GUI PNG](https://github.com/necrotronics/assets/pwa-gui.png).  
+
+*Source*: [ESP32-C61 Docs](https://docs.espressif.com/projects/esp-idf).
